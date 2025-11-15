@@ -2,9 +2,13 @@
 
 This repository demonstrates the structured outputs feature implementation for the Claude Agent SDK (Python). It contains working examples with live API integration that validate type-safe JSON responses using Pydantic models.
 
+**Purpose**: This demo repository was created to validate and demonstrate the functionality of the structured outputs PR for the Claude Agent SDK. All examples use live API calls to confirm production readiness.
+
 ## Overview
 
 The structured outputs feature enables developers to receive predictable, validated JSON responses from Claude by specifying schemas. This implementation supports both Pydantic models (for type safety) and raw JSON Schema definitions (for language-agnostic usage).
+
+This demo validates the implementation in the `feat/structured-outputs` branch, which will be submitted as a PR to the official Claude Agent SDK repository.
 
 ## Prerequisites
 
@@ -133,7 +137,7 @@ All demos execute successfully with real Claude API calls, confirming production
 
 ## SDK Implementation
 
-This demo validates the implementation in the `feat/structured-outputs` branch of the Python SDK.
+This demo repository validates the structured outputs implementation developed in the `feat/structured-outputs` branch. The implementation will be submitted as a pull request to the official Claude Agent SDK Python repository.
 
 **Key features:**
 - Type-safe Pydantic integration
