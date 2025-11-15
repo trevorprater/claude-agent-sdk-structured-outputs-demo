@@ -1,0 +1,16 @@
+[project]
+name = "structured-outputs-demo"
+version = "0.1.0"
+description = "Demo of structured outputs feature for Claude Agent SDK"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.0.0",
+    "anyio>=4.0.0",
+    "typing-extensions>=4.0.0",
+    "mcp>=0.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.1.0",
+]
